@@ -1,7 +1,7 @@
 # Iris JS
 
 ```js
-import { Client, GatewayIntents, GatewayEvents } from "../index";
+import { Client, GatewayIntents, GatewayEvents } from "iris-discord";
 
 const client = new Client({
   intents: [

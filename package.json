@@ -1,6 +1,6 @@
 {
-  "name": "iris",
-  "version": "1.0.0",
+  "name": "iris-discord",
+  "version": "0.1.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iris-discord/iris.git"
+  },
+  "homepage": "https://github.com/iris-discord/iris",
   "dependencies": {
     "@discordjs/voice": "^0.14.0",
     "@types/node": "^18.11.10",
@@ -17,6 +22,7 @@
     "websocket": "^1.0.34"
   },
   "devDependencies": {
-    "@types/websocket": "^1.0.5"
+    "@types/websocket": "^1.0.5",
+    "typescript": "^4.9.4"
   }
 }
